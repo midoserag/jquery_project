@@ -1,0 +1,272 @@
+
+
+
+body
+{
+    color: #212529;
+    font-family: 'segoe ui light';
+    overflow: hidden;
+}
+
+#loading
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    z-index: 999999999999;
+}
+
+#sideBar
+{
+    position: fixed;
+    top: 150px;
+    left: 0px;
+}
+
+#colorsBox
+{
+    background-color: silver;
+    float: left;
+    padding: 15px;
+}
+
+#sideBarToggle
+{
+    background-color: dimgray;
+    padding: 10px;
+    color: white;
+    float: left;
+    cursor: pointer;
+}
+
+.color-item
+{
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.clear
+{
+    clear: both;
+}
+
+#btnUp
+{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 99999;
+    display: none;
+    background-color: fuchsia;
+}
+
+
+header
+{
+    height: 100vh;
+    background-image:url(../images/me.jpg);
+    background-size: cover;
+    background-position: center center ;
+}
+
+.header-content a
+{
+    text-decoration: none;
+    color: crimson;
+}
+
+.social
+{
+    cursor: pointer;
+}
+
+#about
+{
+    background-image: url(../images/light_dot.jpg);
+}
+
+#services
+{
+    background-image: url(../images/dark_dot.jpg);
+}
+
+#services h2
+{
+    color: white;
+}
+ 
+.mainPara
+{
+    color: white;
+}
+
+.services-icons
+{
+    background-color: white;
+    padding: 20px;
+}
+
+.icon-container
+{
+    display: flex;
+    justify-content: center;
+    margin-top: -45px;
+    cursor: pointer;
+}
+
+.icon
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: black;
+}
+
+.icon i 
+{
+    color: white;
+}
+
+
+.services-line
+{
+    background-color: crimson;
+    height: 1px;
+    width: 50px;
+    margin: auto;
+}
+
+
+#work
+{
+    background-image: url(../images/light_dot.jpg);
+}
+
+#work h2
+{
+    color: black;
+}
+
+#price
+{
+    background-image: url(../images/light_dot.jpg);
+}
+
+#clients
+{
+    background-image: url(../images/dark_dot.jpg);
+}
+
+#clients h2 
+{
+    color: white;
+}
+
+#clients p 
+{
+    color: white;
+}
+
+.client-person h3
+{
+    color: white;
+}
+
+.client-person p
+{
+    color: white;
+}
+
+footer h3
+{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+.spinner {
+    margin: 300px auto;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  .spinner > div {
+    background-color: #fff;
+    height: 100%;
+    width: 6px;
+    display: inline-block;
+    
+    -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  }
+  
+  .spinner .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+  }
+  
+  .spinner .rect3 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+  }
+  
+  .spinner .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+  }
+  
+  .spinner .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+  }
+  
+  @-webkit-keyframes sk-stretchdelay {
+    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+    20% { -webkit-transform: scaleY(1.0) }
+  }
+  
+  @keyframes sk-stretchdelay {
+    0%, 40%, 100% { 
+      transform: scaleY(0.4);
+      -webkit-transform: scaleY(0.4);
+    }  20% { 
+      transform: scaleY(1.0);
+      -webkit-transform: scaleY(1.0);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
